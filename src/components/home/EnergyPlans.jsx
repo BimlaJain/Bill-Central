@@ -9,7 +9,7 @@ const EnergyPlans = () => {
             <div className="container">
                 <div className="flex justify-between max-lg:flex-wrap max-lg:justify-center">
                     <div className='lg:w-6/12 w-full'>
-                        <img className='max-w-[507px] max-lg:mx-auto max-xl:max-w-[465px] max-lg:w-full pointer-events-none' src="./assets/images/switiching-energy.png" alt="switching-energy" />
+                        <img className='max-w-[507px] max-lg:mx-auto max-xl:max-w-[465px] max-lg:w-full pointer-events-none' src="./assets/images/png/switiching-energy.png" alt="switching-energy" />
                     </div>
                     <div className='lg:w-6/12 w-full max-lg:pt-10'>
                         <h2 className='font-normal text-5xl max-md:text-3xl leading-[52.8px] text-[#00171F] max-w-[409px] max-lg:max-w-none'><span className='font-bold'>Switching Energy</span> Made Simple</h2>

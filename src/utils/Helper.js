@@ -27,13 +27,13 @@ export const HEADER_LIST = [
 
 ];
 export const LOGOS = [
-    { src: './assets/images/1st-energy.png', alt: 'first-energy' },
-    { src: './assets/images/blue.png', alt: 'blue-nrg' },
-    { src: './assets/images/dodo.png', alt: 'dodo-logo' },
-    { src: './assets/images/origin.png', alt: 'origin-logo' },
+    { src: './assets/images/png/1st-energy.png', alt: 'first-energy' },
+    { src: './assets/images/png/blue.png', alt: 'blue-nrg' },
+    { src: './assets/images/png/dodo.png', alt: 'dodo-logo' },
+    { src: './assets/images/png/origin.png', alt: 'origin-logo' },
     { src: './assets/images/ovo.png', alt: 'ovo-logo' },
-    { src: './assets/images/sumo.png', alt: 'sumo-logo' },
-    { src: './assets/images/agl.png', alt: 'agl-logo' },
+    { src: './assets/images/png/ovo.png', alt: 'sumo-logo' },
+    { src: './assets/images/png/agl.png', alt: 'agl-logo' },
 ];
 
 export const BENEFITS = [
@@ -44,7 +44,7 @@ export const BENEFITS = [
 
 export const SIMPLE_STEPS_LIST = [
     {
-        stepImg: './assets/images/simple-one.png',
+        stepImg: './assets/images/png/simple-one.png',
         alt: ' step-location',
         imgContent: '1. Enter Your Location and Preferences',
         heading: '1. Your Location',
@@ -52,7 +52,7 @@ export const SIMPLE_STEPS_LIST = [
     },
 
     {
-        stepImg: './assets/images/simple-two.png',
+        stepImg: './assets/images/png/simple-two.png',
         alt: 'step-compare',
         imgContent: '2. Compare Providers',
         heading: '2. Compare',
@@ -60,7 +60,7 @@ export const SIMPLE_STEPS_LIST = [
     },
 
     {
-        stepImg: './assets/images/simple-three.png',
+        stepImg: './assets/images/png/simple-three.png',
         alt: 'step-switch-easily',
         imgContent: '3. Switch Easily',
         heading: '3. Switch Easily',
@@ -68,7 +68,7 @@ export const SIMPLE_STEPS_LIST = [
     },
 
     {
-        stepImg: './assets/images/simple-four.png',
+        stepImg: './assets/images/png/simple-four.png',
         alt: 'step-best-plan',
         imgContent: '4. Choose the Best Plan',
         heading: '4. Best Plan',

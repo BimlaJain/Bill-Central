@@ -34,7 +34,7 @@ const SimpleSteps = () => {
                         <SwiperSlide key={i}>
                             <div className='relative group overflow-hidden max-md:max-h-[450px] max-w-[360px] w-full mx-auto'>
                                 <img className='max-w-[360px] max-lg:w-full' src={obj.stepImg} alt={obj.alt} />
-                                <div className='absolute group-hover:h-0 group-hover:w-0 group-hover:top-1/2 group-hover:left-full group-hover:translate-y-full group-hover:translate-x-[-50%] group-hover:opacity-100 group-hover:z-10 duration-500 ease-linear bg-[#EAF9FFF0] opacity-94 top-0 left-0 w-full h-full'>
+                                <div className='absolute group-hover:h-0 group-hover:w-0 group-hover:top-1/2 group-hover:translate-y-full group-hover:translate-x-[-50%] group-hover:opacity-100 group-hover:z-10 duration-500 ease-linear bg-[#EAF9FFF0] opacity-94 top-0 left-0 w-full h-full'>
                                     <div className='relative w-full h-full'>
                                         <p className={`absolute translate-x-[-50%] text-center leading-custom-2xl text-[32px] max-md:text-xl text-[#00171F] -rotate-90 min-w-[574px] group-hover:hidden ${i === 0 ? "top-1/2 left-1/2  " : i === 1 ? "top-[68%] left-1/2" : i === 2 ? "top-[74%] left-1/2 " : i === 3 ? "top-[65.5%] left-1/2" : ""}`}>{obj.imgContent}</p>
                                     </div>

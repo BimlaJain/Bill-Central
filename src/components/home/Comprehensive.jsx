@@ -61,7 +61,7 @@ const Comprehensive = () => {
                     <div className='lg:w-6/12 flex justify-end max-lg:justify-center'>
                         <img
                             className='max-w-[500px] xl:h-[535px] lg:h-[470px] max-xl:max-w-[470px] max-sm:max-w-[336px] mt-10 pointer-events-none'
-                            src="./assets/images/discusion.png"
+                            src="./assets/images/png/discusion.png"
                             alt="designer"
                         />
                     </div>

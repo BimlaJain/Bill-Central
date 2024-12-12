@@ -30,7 +30,7 @@ const WhyChoose = () => {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 flex-[2]">
                         {cardData.slice(1).map((card) => (
-                            <div key={card.id} className="border shadow-lg rounded-md p-6">
+                            <div key={card.id} className="border shadow-lg rounded-md p-6 hover:scale-105 transition-all duration-700">
                                 <img src={card.icon} alt={card.title} />
                                 <h3 className="font-normal text-2xl text-black pt-7 pb-3">{card.title}</h3>
                                 <p className="font-normal text-base text-[#00171F]">{card.description}</p>

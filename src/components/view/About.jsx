@@ -3,9 +3,7 @@ import About from '../about/About'
 
 const About = () => {
   return (
-    <div>
       <About/>
-    </div>
   )
 }
 
